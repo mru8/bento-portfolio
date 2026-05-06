@@ -6,7 +6,9 @@ export default function App() {
       
       {/* Top Section: Intro (Fixed height or small ratio) */}
       <section className="h-[15%] w-full rounded-2xl border border-[var(--border)] bg-[var(--social-bg)] p-6 flex flex-col justify-center">
-        <h1 className="m-0 text-3xl">Intro</h1>
+        <h1 className="m-0 text-3xl">Mrunal Bhoyar</h1>
+        <p>Software Developer</p>
+        <p>Building full-stack applications using React and FastAPI. 8 months of dedicated experience in developing functional, API-driven web solutions.</p>
       </section>
 
       {/* Main Bento Grid: The core of your sketch */}
@@ -23,7 +25,7 @@ export default function App() {
 
         {/* Status Bar */}
         <div className="col-span-4 row-span-1 rounded-3xl border border-[var(--border)] p-4 flex items-center justify-center bg-[var(--social-bg)]">
-          <span className="font-mono text-sm">● Status: Available</span>
+          <span className="font-mono text-sm">● Status: Available to join immediately</span>
         </div>
 
         {/* Socials / Links */}
